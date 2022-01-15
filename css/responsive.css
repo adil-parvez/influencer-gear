@@ -1,0 +1,183 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .container{
+        width: 100%;
+    }
+    /* nav css  */
+    header .nav{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav .nav-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu ul{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-menu ul li{
+        margin: 0 10px;
+    }
+    /* nav css end  */
+
+    /* responsive banner css  */
+    .full-banner{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px;
+    }
+    .banner-left h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .banner-left p{
+        font-size: 17px;
+    }
+    .banner-left{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-right{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .banner-right img{
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    /* responsive banner css end  */
+
+
+    /* responsive logo section css  */
+    .logo-section{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .logo-section img{
+        margin-bottom: 30px;
+    }
+    .logo-section img:last-child{
+        margin-bottom: 10px;
+    }
+    /* responsive logo section css end */
+
+
+    /* responsive product section css */
+    .all-product{
+        flex-direction: column;
+    }
+    .product-section{
+        padding: 0 10px;
+    }
+    .single-product .product-image{
+        height: 230px;
+    }
+    .single-product{
+        width: 300px;
+    }
+    .buy-btn{
+        width: 100%;
+    }
+    .product-content .product-description{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bottom-btn{
+        justify-content: center;
+    }
+    /* responsive product section css end */
+
+
+    /* responsive trending products css */
+    .trending-products{
+        padding: 20px;
+    }
+    .single-trending {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .product-bottom-content{
+        flex-direction: column;
+        align-items: center;  
+    }
+    .trending-products{
+        flex-direction: column;
+    }
+    /* responsive trending product section css end  */
+    
+
+    /* responsive footer section css */
+    .footer{
+        padding: 20px;
+        margin-top: 0;
+    }
+    /* responsive footer section css end  */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .container{
+        width: 100%;
+    }
+    header .nav, .full-banner{
+        padding: 30px;
+    }
+    .banner-left h1{
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .banner-left a{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .single-product{
+        width: 48%;
+        flex-wrap: wrap;
+    }
+    .buy-btn{
+        width: auto;
+    }
+    .logo-section img{
+        margin: 20px;
+    }
+    .logo-section{
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 20px 50px;
+    }
+    .nav-menu ul li{
+        margin-left: 15px;
+    }
+    .nav-logo h3{
+        font-size: 26px;
+    }
+    .full-banner{
+        height: 450px;
+    }
+    .bottom-btn{
+        justify-content: center;
+    }
+
+    .trending-products{
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .single-trending{
+        width: 300px;
+        margin: 20px;
+    }
+    .single-trending:last-child{
+        margin-top: 20px;
+    }
+}
